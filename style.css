@@ -109,3 +109,23 @@ transform:translateY(-5px);
 .contact-btn{
 background:#0f172a;
 }
+.dark{
+background:#0f172a;
+color:white;
+}
+
+.dark header{
+background:#1e293b;
+}
+
+.dark nav ul li a{
+color:white;
+}
+
+.dark .hero p{
+color:#cbd5e1;
+}
+
+.dark .contact-btn{
+background:#334155;
+}
