@@ -1,17 +1,19 @@
-const btn=document.getElementById("theme-btn");
+const btn = document.getElementById("theme-btn");
 
-btn.onclick=function(){
+btn.onclick = function(){
 
-document.body.classList.toggle("dark");
+    document.body.classList.toggle("dark");
 
-if(document.body.classList.contains("dark")){
+    if(document.body.classList.contains("dark")){
 
-btn.innerHTML="☀️";
+        btn.innerHTML="☀️";
 
-}else{
+    }
 
-btn.innerHTML="🌙";
+    else{
 
-}
+        btn.innerHTML="🌙";
+
+    }
 
 }
