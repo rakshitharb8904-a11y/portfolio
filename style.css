@@ -193,3 +193,26 @@ nav ul li a:hover{
 .dark .contact-btn{
     background:#334155;
 }
+/* ABOUT SECTION */
+
+.about{
+    width:80%;
+    margin:100px auto;
+    text-align:center;
+}
+
+.about h2{
+    font-size:42px;
+    color:#2563eb;
+    margin-bottom:30px;
+}
+
+.about p{
+    font-size:22px;
+    line-height:40px;
+    color:#64748b;
+}
+
+.dark .about p{
+    color:#cbd5e1;
+}
