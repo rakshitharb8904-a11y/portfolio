@@ -85,7 +85,7 @@ nav ul li a:hover{
 }
 
 .hero-text h1{
-    font-size:60px;
+    font-size:50px;
     margin-bottom:20px;
 }
 
@@ -144,6 +144,14 @@ nav ul li a:hover{
     width:100%;
     max-width:450px;
     animation:float 4s ease-in-out infinite;
+}
+
+.hero-image img{
+    margin-top:-40px;
+}
+
+.hero{
+    padding-top:60px;
 }
 
 /* Floating Animation */
