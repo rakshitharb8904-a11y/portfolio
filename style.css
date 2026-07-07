@@ -294,3 +294,82 @@ background:#15803d;
 .dark .skill-card p{
     color:#cbd5e1;
 }
+/* ===========================
+   Projects Section
+=========================== */
+
+.projects{
+    width:90%;
+    margin:100px auto;
+    text-align:center;
+}
+
+.projects h2{
+    font-size:42px;
+    color:#2563eb;
+    margin-bottom:50px;
+}
+
+.project-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.project-card{
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.project-card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 15px 35px rgba(37,99,235,.3);
+}
+
+.project-card h3{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.project-card p{
+    color:#64748b;
+    line-height:28px;
+}
+
+.tech{
+    margin:20px 0;
+}
+
+.tech span{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    padding:8px 14px;
+    margin:5px;
+    border-radius:30px;
+    font-size:14px;
+}
+
+.project-buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-top:20px;
+}
+
+.project-buttons button{
+    padding:12px 20px;
+}
+
+/* Dark Mode */
+
+.dark .project-card{
+    background:#1e293b;
+}
+
+.dark .project-card p{
+    color:#cbd5e1;
+}
