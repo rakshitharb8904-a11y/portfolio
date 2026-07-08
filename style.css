@@ -416,3 +416,10 @@ margin:10px auto;
 border-radius:20px;
 
 }
+.typing{
+    color:#38bdf8;
+    margin-top:15px;
+    font-size:26px;
+    font-weight:600;
+    min-height:40px;
+}
